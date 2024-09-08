@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../assets/dist/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <title>FinAI | Login</title>
+  </head>
+
+    <div class="main-login" id="login">
+      <div class="left-login">
+        <h1>
+          Trabalhar com FinAI ficou mais fácil. <br />
+          <span>Acesse a sua conta!</span>
+        </h1>
+        <img
+          src="../assets/img/financelogin.svg"
+          class="left-img-login"
+          alt="imagem desenho finanças"
+          class="left-login-img"
+        />
+      </div>
+      <form action="../assets/dist/functions/login.php" method="post">
+      <div class="right-login">
+        <img
+          src="../assets/img/logofinAI.png"
+          alt="logo"
+          class="logoFinAI"/>
+        <div class="card-login">
+          <div class="textfield">
+            <label for="usuario">E-mail</label>
+            <input type="text" name="email" placeholder="Nome@email.com" />
+          </div>
+          <div class="textfield">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" placeholder="Senha" />
+          </div>
+          <button type="submit" name="logar" class="btn-login">Login</button>
+        </div>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

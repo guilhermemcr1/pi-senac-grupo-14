@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../assets/dist/css/cadastrar.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Booststrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Boostrap 5.3.3 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <title>FinAI | Cadastro de Cliente</title>
+  </head>
+  <body>
+    <div class="container-cadastrar">
+      <nav class="sidebar">
+        <div class="logo">
+          <img src="../assets/dist/img/logofinAI.png" alt="Home" />
+        </div>
+
+        <div class="menu">
+          <a href="index.html">Home</a>
+          <a href="#">FAQ</a>
+          <a href="#">Cadastre-se</a>
+          <a id="btn-login" href="login.html">Login</a>
+        </div>
+      </nav>
+
+      <div class="main-login" id="login">
+        <div class="left-login">
+          <img
+            src="../assets/dist/img/account-create.svg"
+            alt="criar conta"
+          />
+        </div>
+
+        <form action="../assets/dist/functions/cadastrar_usuario.php" method="post">
+        <div class="right-login">
+          <h1>Cadastre-se<span>.</span></h1>
+
+          <div class="card-login">
+            <div class="textfield">
+              <label for="nome">Nome Completo</label>
+              <input
+                type="text"
+                name="nome"
+                placeholder="Nome Completo"
+                required
+              />
+            </div>
+            <div class="textfield">
+              <label for="cpf">CPF</label>
+              <input
+                type="text"
+                name="cpf"
+                placeholder="Somente números"
+                required
+              />
+            </div>
+            <div class="textfield">
+              <label for="datanasc">Data de Nascimento</label>
+              <input
+                type="date"
+                name="datanasc"
+                required
+              />
+            </div>
+            <div class="textfield">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" placeholder="E-mail" required />
+            </div>
+            <div class="textfield">
+              <label for="senha">Senha</label>
+              <input
+                type="password"
+                name="senha"
+                placeholder="Senha"
+                required
+              />
+            </div>
+            <div class="textfield">
+              <label for="confirmSenha">Confirmar Senha</label>
+              <input
+                type="password"
+                name="repetesenha"
+                placeholder="Digite novamente a senha"
+                required
+              />
+            </div>
+
+            <button class="btn-login">Cadastrar</button>
+          </div>
+        </div>
+      </form>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
