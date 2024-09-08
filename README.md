@@ -122,7 +122,7 @@ Usuário efetua o logout da plataforma.
 ![PaginaInicial](gifs_readme/sair.gif)
 
 
-
+link do video de apresentação: https://youtu.be/vnYmNOeDXRQ
 
 
 
