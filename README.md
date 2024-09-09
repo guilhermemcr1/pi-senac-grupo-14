@@ -73,7 +73,7 @@ Home da aplicação, com opções de cadastro, login e FAQ.
 
 Implementação de formulário para cadastro de novos usuários, com inserção dos novos usuários do banco de dados.
 
-![Cadastro](gifs_readme/cadastro.gif)
+![image](https://raw.githubusercontent.com/guilhermemcr1/pi-senac-grupo-14/main/pi/assets/img/github/cadastro.png)
 
 ## Login
 Para usuários já cadastrados, foi criado uma tela de login para entrar na aplicação.
@@ -83,19 +83,19 @@ Para usuários já cadastrados, foi criado uma tela de login para entrar na apli
 ## Tela do usuário
 Após efetuado o login, o usuário é direcionado para a tela principal da aplicação.
 
-![image](https://raw.githubusercontent.com/guilhermemcr1/pi-senac-grupo-14/main/pi/assets/img/github/index.png)
-
 Na tela principal da aplicação, há diversos menus com diferentes funcionalidades da aplicação.
 
 * Início
 
 No menu Início, é possível visualizar os lançamentos recentes, e também as principais métricas, como por exemplo: total de movimentações, transações totais, total gasto no dia atual e o valor em conta.
 
+![image](https://raw.githubusercontent.com/guilhermemcr1/pi-senac-grupo-14/main/pi/assets/img/github/index.png)
+
 * Despesas
 
 Na tela de despesas, são exibidas as principais despesas lançadas pelo usuário. É possível adicionar novas despesas e excluir despesas previamente lançadas.
 
-![PaginaInicial](gifs_readme/adicionar_despesa.gif)
+![image](https://raw.githubusercontent.com/guilhermemcr1/pi-senac-grupo-14/main/pi/assets/img/github/despesas.png)
 
 * Limite de Gastos
 
@@ -104,6 +104,9 @@ Esta tela será implementada futuramente permitindo que o usuário defina limite
 * Extrato
 
 Esta tela será implementada futuramente, com o extrato total do usuário dos últimos dias.
+
+![image](https://raw.githubusercontent.com/guilhermemcr1/pi-senac-grupo-14/main/pi/assets/img/github/extrato.png)
+
 
 * AI Financeira
 
@@ -118,8 +121,6 @@ Esta tela será implementada futuramente, permitindo que o usuário altere as co
 * Sair
 
 Usuário efetua o logout da plataforma.
-
-![PaginaInicial](gifs_readme/sair.gif)
 
 
 link do video de apresentação: https://youtu.be/vnYmNOeDXRQ
