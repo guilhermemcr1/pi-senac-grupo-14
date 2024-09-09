@@ -78,12 +78,12 @@ Implementação de formulário para cadastro de novos usuários, com inserção 
 ## Login
 Para usuários já cadastrados, foi criado uma tela de login para entrar na aplicação.
 
-![PaginaInicial](gifs_readme/login.gif)
+![image](https://raw.githubusercontent.com/guilhermemcr1/pi-senac-grupo-14/main/pi/assets/img/github/login.png)
 
 ## Tela do usuário
 Após efetuado o login, o usuário é direcionado para a tela principal da aplicação.
 
-![image](https://github.com/guilhermemcr1/pi-senac-grupo10/assets/46868956/e6470fcc-81e8-4250-96be-6e40c83bf749)
+![image](https://raw.githubusercontent.com/guilhermemcr1/pi-senac-grupo-14/main/pi/assets/img/github/index.png)
 
 Na tela principal da aplicação, há diversos menus com diferentes funcionalidades da aplicação.
 
