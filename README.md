@@ -16,7 +16,7 @@ ANÁLISE DE SOLUÇÕES INTEGRADAS PARA ORGANIZAÇÕES
  * Ano: 2024
  * Disciplina: Projeto Integrador
  * Tema: Desenvolvimento de Sistemas Orientado a Dispositivos Móveis e Baseados na Web
- * Grupo: 10
+ * Grupo: 14
    
 # Integrantes
 - Clei Lisboa Santos, [CleiL](https://github.com/CleiL)
@@ -122,7 +122,7 @@ Usuário efetua o logout da plataforma.
 ![PaginaInicial](gifs_readme/sair.gif)
 
 
-
+link do video de apresentação: https://youtu.be/vnYmNOeDXRQ
 
 
 
